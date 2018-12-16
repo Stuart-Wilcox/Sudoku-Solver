@@ -1,6 +1,8 @@
 # Sudoku-Solver
 Sudoku solver is a simple web app that solves a given Sudoku puzzle.
 
+You can check it out [here](https://sudoku-solver-js.herokuapp.com/), I have it deployed on a free tier Heroku cloud server.
+
 ## Sudoku Rules
 Sudoku involves a grid of 81 squares.
 The grid is divided into nine blocks, each containing nine squares.
