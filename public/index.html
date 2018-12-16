@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sudoku Solver</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link type='text/css' rel="stylesheet" href='index.css' />
+  </head>
+  <body>
+    <h2>
+      Sudoku Solver
+    </h2>
+
+    <div>
+      Enter the values of the puzzle you wish to solve.
+    </div>
+
+    <hr/>
+
+    <div id="sudokuTableContainer">
+      <table id="sudokuTable">
+      </table>
+    </div>
+
+    <hr />
+
+    <div id="errorMessage" hidden="true">
+      No solution found for the given puzzle.
+    </div>
+
+    <button id="solveButton">
+      Solve!
+    </button>
+    <button id="clearButton">
+      Clear
+    </button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
